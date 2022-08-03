@@ -2945,13 +2945,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.box_colision).wait(1));
 
-	// carrito
-	this.carrito = new lib.carrito();
-	this.carrito.name = "carrito";
-	this.carrito.setTransform(549.4,403.1,1,1,0,0,0,146.5,105.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.carrito).wait(1));
-
 	// t
 	this.instance = new lib.tiagopro();
 	this.instance.setTransform(804.4,308.65,0.925,0.925,0,0,0,43.5,25.1);
@@ -2986,6 +2979,13 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.f_p).wait(1));
 
+	// carrito
+	this.carrito = new lib.carrito();
+	this.carrito.name = "carrito";
+	this.carrito.setTransform(549.4,403.1,1,1,0,0,0,146.5,105.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.carrito).wait(1));
+
 	// estantes
 	this.estantes = new lib.estantes_1();
 	this.estantes.name = "estantes";
@@ -3004,7 +3004,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.Ejercicio_3 = function(mode,startPosition,loop,reversed) {
+(lib.Ejercicio_4 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -3117,7 +3117,7 @@ if (reversed == null) { reversed = false; }
 			esc_2.pant.txt_p1.text = `${c_h} GRAMOS - HARINA`;
 			esc_2.pant.txt_p2.text = `${cant_a[c_a-2]} KILOGRAMO - AZÚCAR`;
 			esc_2.pant.txt_p3.text = `${cant_c[c_c-1]} KILOGRAMO - CACAO EN POLVO`;
-			esc_2.pant.txt_p4.text = `${c_p} GRAMOS - HARINA`;
+			esc_2.pant.txt_p4.text = `${c_p} GRAMOS - POROTOS`;
 					
 			_current = 2;
 			
@@ -3586,51 +3586,51 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/anuncio_recordatorio.png?1658621313893", id:"anuncio_recordatorio"},
-		{src:"images/azucar.png?1658621313893", id:"azucar"},
-		{src:"images/btn_.png?1658621313893", id:"btn_"},
-		{src:"images/btn_g.png?1658621313893", id:"btn_g"},
-		{src:"images/Btn_pista.png?1658621313893", id:"Btn_pista"},
-		{src:"images/btn_pista_dst.png?1658621313893", id:"btn_pista_dst"},
-		{src:"images/cacao.png?1658621313893", id:"cacao"},
-		{src:"images/Carritodecompras1A.png?1658621313893", id:"Carritodecompras1A"},
-		{src:"images/Carritodecompras2A.png?1658621313893", id:"Carritodecompras2A"},
-		{src:"images/cj.png?1658621313893", id:"cj"},
-		{src:"images/destellos1.png?1658621313893", id:"destellos1"},
-		{src:"images/destellos2.png?1658621313893", id:"destellos2"},
-		{src:"images/estantes.png?1658621313893", id:"estantes"},
-		{src:"images/fondo_E1.jpg?1658621313893", id:"fondo_E1"},
-		{src:"images/fondo_E2.jpg?1658621313893", id:"fondo_E2"},
-		{src:"images/harina.png?1658621313893", id:"harina"},
-		{src:"images/i1B.png?1658621313893", id:"i1B"},
-		{src:"images/i1F.png?1658621313893", id:"i1F"},
-		{src:"images/i2B.png?1658621313893", id:"i2B"},
-		{src:"images/i2F.png?1658621313893", id:"i2F"},
-		{src:"images/i3B.png?1658621313893", id:"i3B"},
-		{src:"images/i3F.png?1658621313893", id:"i3F"},
-		{src:"images/i4B.png?1658621313893", id:"i4B"},
-		{src:"images/i4F.png?1658621313893", id:"i4F"},
-		{src:"images/notaum.png?1658621313893", id:"notaum"},
-		{src:"images/nota_final.png?1658621313893", id:"nota_final"},
-		{src:"images/nt_in_B.png?1658621313893", id:"nt_in_B"},
-		{src:"images/nt_in_F.png?1658621313893", id:"nt_in_F"},
-		{src:"images/PB.png?1658621313893", id:"PB"},
-		{src:"images/PF.png?1658621313893", id:"PF"},
-		{src:"images/porotos.png?1658621313893", id:"porotos"},
-		{src:"images/pstB.png?1658621313893", id:"pstB"},
-		{src:"images/pstF.png?1658621313893", id:"pstF"},
-		{src:"images/ptsB.png?1658621313893", id:"ptsB"},
-		{src:"images/ptsF.png?1658621313893", id:"ptsF"},
-		{src:"images/rayitos1.png?1658621313893", id:"rayitos1"},
-		{src:"images/rayitos2.png?1658621313893", id:"rayitos2"},
-		{src:"images/RobotvendedorA.png?1658621313893", id:"RobotvendedorA"},
-		{src:"images/RobotvendedorbrazoA.png?1658621313893", id:"RobotvendedorbrazoA"},
-		{src:"images/temp_1.png?1658621313893", id:"temp_1"},
-		{src:"images/temp_2.png?1658621313893", id:"temp_2"},
-		{src:"images/tprobzoder.png?1658621313893", id:"tprobzoder"},
-		{src:"images/tprobzoizq.png?1658621313893", id:"tprobzoizq"},
-		{src:"images/tprocbza.png?1658621313893", id:"tprocbza"},
-		{src:"images/tprocrpo.png?1658621313893", id:"tprocrpo"}
+		{src:"images/anuncio_recordatorio.png?1659386096473", id:"anuncio_recordatorio"},
+		{src:"images/azucar.png?1659386096473", id:"azucar"},
+		{src:"images/btn_.png?1659386096473", id:"btn_"},
+		{src:"images/btn_g.png?1659386096473", id:"btn_g"},
+		{src:"images/Btn_pista.png?1659386096473", id:"Btn_pista"},
+		{src:"images/btn_pista_dst.png?1659386096473", id:"btn_pista_dst"},
+		{src:"images/cacao.png?1659386096473", id:"cacao"},
+		{src:"images/Carritodecompras1A.png?1659386096473", id:"Carritodecompras1A"},
+		{src:"images/Carritodecompras2A.png?1659386096473", id:"Carritodecompras2A"},
+		{src:"images/cj.png?1659386096473", id:"cj"},
+		{src:"images/destellos1.png?1659386096473", id:"destellos1"},
+		{src:"images/destellos2.png?1659386096473", id:"destellos2"},
+		{src:"images/estantes.png?1659386096473", id:"estantes"},
+		{src:"images/fondo_E1.jpg?1659386096473", id:"fondo_E1"},
+		{src:"images/fondo_E2.jpg?1659386096473", id:"fondo_E2"},
+		{src:"images/harina.png?1659386096473", id:"harina"},
+		{src:"images/i1B.png?1659386096473", id:"i1B"},
+		{src:"images/i1F.png?1659386096473", id:"i1F"},
+		{src:"images/i2B.png?1659386096473", id:"i2B"},
+		{src:"images/i2F.png?1659386096473", id:"i2F"},
+		{src:"images/i3B.png?1659386096473", id:"i3B"},
+		{src:"images/i3F.png?1659386096473", id:"i3F"},
+		{src:"images/i4B.png?1659386096473", id:"i4B"},
+		{src:"images/i4F.png?1659386096473", id:"i4F"},
+		{src:"images/notaum.png?1659386096473", id:"notaum"},
+		{src:"images/nota_final.png?1659386096473", id:"nota_final"},
+		{src:"images/nt_in_B.png?1659386096473", id:"nt_in_B"},
+		{src:"images/nt_in_F.png?1659386096473", id:"nt_in_F"},
+		{src:"images/PB.png?1659386096473", id:"PB"},
+		{src:"images/PF.png?1659386096473", id:"PF"},
+		{src:"images/porotos.png?1659386096473", id:"porotos"},
+		{src:"images/pstB.png?1659386096473", id:"pstB"},
+		{src:"images/pstF.png?1659386096473", id:"pstF"},
+		{src:"images/ptsB.png?1659386096473", id:"ptsB"},
+		{src:"images/ptsF.png?1659386096473", id:"ptsF"},
+		{src:"images/rayitos1.png?1659386096473", id:"rayitos1"},
+		{src:"images/rayitos2.png?1659386096473", id:"rayitos2"},
+		{src:"images/RobotvendedorA.png?1659386096473", id:"RobotvendedorA"},
+		{src:"images/RobotvendedorbrazoA.png?1659386096473", id:"RobotvendedorbrazoA"},
+		{src:"images/temp_1.png?1659386096473", id:"temp_1"},
+		{src:"images/temp_2.png?1659386096473", id:"temp_2"},
+		{src:"images/tprobzoder.png?1659386096473", id:"tprobzoder"},
+		{src:"images/tprobzoizq.png?1659386096473", id:"tprobzoizq"},
+		{src:"images/tprocbza.png?1659386096473", id:"tprocbza"},
+		{src:"images/tprocrpo.png?1659386096473", id:"tprocrpo"}
 	],
 	preloads: []
 };
