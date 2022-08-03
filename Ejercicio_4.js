@@ -963,7 +963,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.txt_enun = new cjs.Text("1 kilogramo = 1000 gramos\n1/2 kilogramo = 500 gramos\n1/4 kilogramo = 250 gramos", "18px 'Hauracherell NC'", "#27477C");
+	this.txt_enun = new cjs.Text("1 kilogramo = 1000 gramos\n1/2 kilogramo = 500 gramos\n1/4 kilogramo = 250 gramos", "18px 'Hauracherell-NC'", "#27477C");
 	this.txt_enun.name = "txt_enun";
 	this.txt_enun.textAlign = "center";
 	this.txt_enun.lineHeight = 24;
@@ -1763,7 +1763,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_3
-	this.text = new cjs.Text("lista de productos", "18px 'Carton Six'", "#00FFFF");
+	this.text = new cjs.Text("LISTA DE PRODUCTOS", "18px 'Carton Six'", "#00FFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 22;
 	this.text.lineWidth = 150;
@@ -1773,7 +1773,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// Capa_4
-	this.txt_p4 = new cjs.Text("750 GRAMOS - POROTOS", "18px 'Hauracherell NC'", "#FFFFFF");
+	this.txt_p4 = new cjs.Text("750 GRAMOS - POROTOS", "18px 'Hauracherell-NC'", "#FFFFFF");
 	this.txt_p4.name = "txt_p4";
 	this.txt_p4.textAlign = "center";
 	this.txt_p4.lineHeight = 24;
@@ -1781,7 +1781,7 @@ if (reversed == null) { reversed = false; }
 	this.txt_p4.parent = this;
 	this.txt_p4.setTransform(129.8,125.45);
 
-	this.txt_p3 = new cjs.Text("1/2 KILOGRAMO - CACAO EN POLVO", "18px 'Hauracherell NC'", "#FFFFFF");
+	this.txt_p3 = new cjs.Text("1/2 KILOGRAMO - CACAO EN POLVO", "18px 'Hauracherell-NC'", "#FFFFFF");
 	this.txt_p3.name = "txt_p3";
 	this.txt_p3.textAlign = "center";
 	this.txt_p3.lineHeight = 24;
@@ -1789,7 +1789,7 @@ if (reversed == null) { reversed = false; }
 	this.txt_p3.parent = this;
 	this.txt_p3.setTransform(129.8,99.35);
 
-	this.txt_p2 = new cjs.Text("1 1/2 - AZÚCAR", "18px 'Hauracherell NC'", "#FFFFFF");
+	this.txt_p2 = new cjs.Text("1 1/2 - AZÚCAR", "18px 'Hauracherell-NC'", "#FFFFFF");
 	this.txt_p2.name = "txt_p2";
 	this.txt_p2.textAlign = "center";
 	this.txt_p2.lineHeight = 24;
@@ -1797,7 +1797,7 @@ if (reversed == null) { reversed = false; }
 	this.txt_p2.parent = this;
 	this.txt_p2.setTransform(129.8,73.25);
 
-	this.txt_p1 = new cjs.Text("4000 GRAMOS - HARINA", "18px 'Hauracherell NC'", "#FFFF00");
+	this.txt_p1 = new cjs.Text("4000 GRAMOS - HARINA", "18px 'Hauracherell-NC'", "#FFFF00");
 	this.txt_p1.name = "txt_p1";
 	this.txt_p1.textAlign = "center";
 	this.txt_p1.lineHeight = 24;
